@@ -1,0 +1,87 @@
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+body{
+    background-color: #4ABDAC;
+    color: #FC4A1A;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("background.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+    width: 60%;
+    min-width: 420px;
+    max-width: 680px;
+    margin: 100px auto auto auto;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+}
+.input-div{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.input-div input{
+    height: 50px;
+    font-size: 20px;
+    width: 80%;
+
+    padding-left: 20px;
+
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.input-div button{
+    height: 50px;
+    font-size: 20px;
+    width: 20%;
+
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+.warning{
+    background-color: rgb(255, 175, 190);
+    color: rgb(250, 66, 66);
+    text-align: center;
+    margin-top: 2px;
+    font-size: 15px;
+}
+.no-task{
+    text-align: center;
+    margin-top: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+.todo-name{
+    font-size: 40px;
+}
+.list-div{
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+.task-div{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    overflow: visible;
+}
+.taskName{
+    font-size: 23px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px white;
+}
